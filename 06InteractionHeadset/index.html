@@ -21,7 +21,7 @@
         </a-entity>
         <a-ring id="cursorRing" 
           position="0 0 -1"
-          radius-inner= "0.04"
+          radius-inner= "0.03"
           radius-outer= "0.05"
           material="color: yellow; shader: flat">
         </a-ring>
@@ -40,13 +40,13 @@
           type: color; 
           to: blue; 
           startEvents: mouseenter; 
-          dur: 500;"
+          dur: 50;"
         animation__mouseleave="
           property: components.material.material.color; 
           type: color; 
           to: red; 
           startEvents: mouseleave; 
-          dur: 500;">  
+          dur: 50;">  
       </a-box>
       <a-box id="myOtherBox" 
         position="2 1 -3" 
